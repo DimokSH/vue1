@@ -1,6 +1,6 @@
 <template>
   <div>
-<!--    <goods-adding></goods-adding>&ndash;&gt;-->
+    <goods-adding></goods-adding>-->
 
     <input type="text" v-bind:value="bb" @input="bb = $event.target.value">
 
@@ -85,9 +85,9 @@ import goodsAdding from "@/components/goodsAdding";
 
 
 export default {
-  // components: {
-  //   goodsAdding
-  // },
+  components: {
+    goodsAdding
+  },
   data() {
     return {
       bb: "test",
