@@ -1,4 +1,5 @@
 <template>
+<!--  //-->
   <div>
     <goods-adding></goods-adding>-->
 
