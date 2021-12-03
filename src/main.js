@@ -1,7 +1,17 @@
 import { createApp } from 'vue'
 import App from "./App"
+import {store} from './store/index.js'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 
-createApp(App).mount('#app')
+
+const app = createApp(App);
+
+app
+    .use(store)
+    .mount("#app")
+
+
+
+
